@@ -87,6 +87,15 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.scroll-text {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.scrolled .scroll-text {
+  color: #212529; /* Hitam Bootstrap */
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -155,7 +164,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 5em;
   margin-right: 8px;
 }
 
@@ -208,7 +217,18 @@ h6 {
 
 .scrolled .header {
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+  color: #212529;
 }
+
+
+ .scroll-text {
+    color: #e0e0e0 !important; /* warna saat di atas */
+    transition: color 0.3s ease;
+  }
+
+  .scrolled .scroll-text {
+    color: #3a3939 !important; /* warna saat scroll ke bawah */
+  }
 
 /* Index Page Header
 ------------------------------*/
