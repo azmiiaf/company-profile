@@ -1,0 +1,17 @@
+{
+  "animations.Focus-Dimming-Mode": "Full Window",
+  "animations.CursorAnimation": true,
+  "animations.Install-Method": "Custom CSS and JS",
+  "animations.Active": "Scale",
+  "animations.Durations": {
+    "Tabs": 200,
+    "Active": 200,
+    "Scrolling": 200,
+    "Command-Palette": 300,
+    "Focus-Dimming": 200,
+    "Smooth-Mode": 200
+  },
+  "animations.Scrolling": "Fade",
+  "animations.Tabs": "Slide",
+  "animations.Auto-Install": false
+}
